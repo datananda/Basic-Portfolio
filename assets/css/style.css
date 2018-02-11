@@ -1,0 +1,61 @@
+/* global styles */
+body,
+a {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header styles */
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    height: 90px;
+}
+
+header div {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 28px;
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 31px;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+    margin: 36px 0px;
+}
+
+nav li {
+    display: table-cell;
+    font-size: 18px;
+    padding: 0px 16px;
+    border-right: 1px solid #cccccc;
+}
+
+nav li:last-child {
+    padding-right: 0px;
+    border: none;
+}
+
+/* */
+figcaption{
+    background-color: #4aaaa5;
+}
