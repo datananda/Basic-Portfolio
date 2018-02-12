@@ -97,9 +97,43 @@ h2 {
 }
 
 aside {
-    width: 270px;
+    width: 206px;
     vertical-align: top;
     float: right;
+    padding: 32px;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 20px;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 26px;
+    margin-bottom: 24px;
+}
+
+aside li {
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #4aaaa5;
+    margin-right: 8px;
+}
+
+aside li:last-child {
+    margin-right: 0;
+}
+
+aside a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+i {
+    color: white;
+    font-size: 48px;
+    padding: 6px 0;
 }
 
 /* */
