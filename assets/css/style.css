@@ -146,6 +146,27 @@ footer {
     font-size: 12px;
 }
 
+/* contact styles */
+input,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 22px;
+    color: #cccccc;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    width: 125px;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 16px 0;
+    font-size: inherit;
+}
+
 /* */
 figcaption{
     background-color: #4aaaa5;
