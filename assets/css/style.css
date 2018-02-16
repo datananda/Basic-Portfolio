@@ -52,6 +52,12 @@ nav li {
     border-right: 1px solid #cccccc;
 }
 
+nav li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4aaaa5;
+    color: #4aaaa5;
+}
+
 nav li:last-child {
     padding-right: 0px;
     border: none;
