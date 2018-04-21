@@ -149,7 +149,7 @@ aside {
 
 section {
     width: 588px;
-    padding: 42px 31px;
+    padding: 42px 31px 20px 31px;
 }
 
 aside {
@@ -229,10 +229,6 @@ figure:hover {
 
 figure:nth-child(even) {
     margin-right: 33px;
-}
-
-figure:last-child {
-    margin-bottom: 0;
 }
 
 figure img {
